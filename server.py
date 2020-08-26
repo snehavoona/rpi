@@ -50,7 +50,7 @@ def callFun(a):
     GPIO.output(in1, GPIO.LOW)
     GPIO.output(in2, GPIO.LOW)
     #while True:
-    for x in range(10):
+    for x in range(20):
     	GPIO.output(in1, GPIO.HIGH)
     	time.sleep(0.2)
     	GPIO.output(in1, GPIO.LOW)
